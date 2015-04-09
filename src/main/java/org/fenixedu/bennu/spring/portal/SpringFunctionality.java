@@ -50,4 +50,5 @@ public @interface SpringFunctionality {
 
     String accessGroup() default PortalHandlerMapping.DELEGATE;
 
+    String documentationUrl() default "";
 }
